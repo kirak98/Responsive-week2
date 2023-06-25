@@ -96,5 +96,31 @@
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     text-decoration: none;
+    display: flex;
+    justify-content: center;
   }
   
+  @media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .container {
+        max-width:960px;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .container {
+        max-width:540px;
+    }
+  }
+
+  @media (min-width: 992px)  {
+  .navbar-expand-lg {
+    flex-wrap: nowrap;
+    justify-content: flex start;
+  }
+}
