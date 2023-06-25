@@ -99,10 +99,19 @@
     display: flex;
     justify-content: center;
   }
+
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+  }
   
   @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
+
     }
   }
 
