@@ -97,8 +97,8 @@
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     text-decoration: none;
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
   }
 
   .navbar {
